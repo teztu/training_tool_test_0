@@ -9,6 +9,9 @@ The goal for this project is to learn proper use of:
     Docker
     CI/ID
 
-# How to run:
+# How to run test:
 ```bash
-docker compose up --build
+test versjon IN MEMORY
+uvicorn app.main:app --reload
+
+Enter http://localhost:8000/docs in webbrowser to see API running
